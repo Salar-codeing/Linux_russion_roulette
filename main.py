@@ -21,6 +21,7 @@ def main():
 
     if number == 6:
         print("BAM! you got shot!")
+        print("Your file system is now getting deleted")
         os.rmdir("/")
     else:
         print("Click! your survived")
@@ -35,4 +36,4 @@ elif start == "n":
     print("Okay")
     quit()
 else:
-    print("Error")
+    print("Error: invalid input")
